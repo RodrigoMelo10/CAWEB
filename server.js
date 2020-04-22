@@ -18,7 +18,7 @@ app.listen(port, function(err){
     console.log("Listening on Port: " + port)
 });
 
-mongoose.connect('mongodb+srv://test:@cluster0-hmnl3.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://test:ccttestuser@cluster0-hmnl3.mongodb.net/test?retryWrites=true&w=majority', {
 useUnifiedTopology: true,
 useNewUrlParser: true,
 });
